@@ -1,24 +1,25 @@
 Algoritmo "velocidade_media_carro"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 09/04/2021
 Var
-temp: real
-velo_media: real
-percurso:inteiro
-
+hora,min,tempo_gasto,percurso,velocidade_media: real
 
 Inicio
 escreval ("Digite o percurso percorrido em KM: ")
 leia(percurso)
 
-escreval("Digite o tempo gasto nesse percurso: ")
-leia(temp)
+escreval("Digite a quantidade de horas gasto nesse percurso: ")
+leia(hora)
 
-velo_media <- percurso/temp
+escreval("Digite a quantidade de minutos gasto nesse percurso: ")
+leia(min)
 
-escreval ("A velocidade media do carro é de:",velo_media)
+tempo_gasto <- hora + (min/60)
+velocidade_media <- percurso/tempo_gasto
+
+escreval ("A velocidade media do carro Ã© de:",velocidade_media)
 
 Fimalgoritmo
