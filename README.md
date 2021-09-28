@@ -1,4 +1,4 @@
-# AulasPA
+# Programação e Algoritmos
 Exercícios Scratch
 
 Exercício 1 - somar dois números https://scratch.mit.edu/projects/498755284
